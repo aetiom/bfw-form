@@ -1,0 +1,16 @@
+{
+    "captcha.php": {
+        "version": "1.0.0",
+        "scriptsPlayed": []
+    },
+	
+    "config.php": {
+        "version": "1.0.0",
+        "scriptsPlayed": []
+    },
+    
+    "pool.php": {
+        "version": "1.0.0",
+        "scriptsPlayed": []
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "runner": "runner.php",
+    "require": ["bfw-voight-kampff"],
+    "priority": 0
+}

@@ -1,0 +1,26 @@
+{
+    "name": "aetiom/bfw-twig",
+    "type": "library",
+    "description": "Twig template module for BFW",
+    "keywords": ["Template", "Twig", "module", "bfw"],
+    "homepage": "https://github.com/aetiom/bfw-twig",
+    "time": "2016-03-26",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+        "name": "Alexandre Moittié / Aetiom",
+        "homepage": "https://github.com/aetiom",
+        "email": "aetiom@protonmail.com"
+        }
+    ],
+    "support": {
+        "email": "aetiom@protonmail.com",
+        "issues": "https://github.com/aetiom/bfw-twig/issues",
+        "source": "https://github.com/aetiom/bfw-twig"
+    },
+    "require": {
+        "bulton-fr/bfw": "~3.0.0-RC11@RC",
+        "aetiom/php-utils": "dev-dev",
+        "aetiom/scribe": "dev-dev"
+    }
+}
