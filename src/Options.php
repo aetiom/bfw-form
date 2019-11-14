@@ -52,13 +52,14 @@ class Options extends \Aetiom\PhpUtils\Options {
     public $accessMethod = 'POST';
 
     /**
-     * @var array $validMethods : static methods used in data validate process
+     * @var array $dataClasses : data classes that implements 
+     * \BfwForm\Helpers\Data\DataInterface used for data validate process
      */
-    public $validMethods = [
-        'txt'      => ['\BfwForm\Helpers\Data', 'validateText'],
-        'text'     => ['\BfwForm\Helpers\Data', 'validateText'],
-        'pwd'      => ['\BfwForm\Helpers\Data', 'validatePassword'],
-        'password' => ['\BfwForm\Helpers\Data', 'validatePassword']
+    public $dataClasses = [
+        'txt'      => '\BfwForm\Helpers\Data\Text',
+        'text'     => '\BfwForm\Helpers\Data\Text',
+        'pwd'      => '\BfwForm\Helpers\Data\Password',
+        'password' => '\BfwForm\Helpers\Data\Password'
     ];
 
     /**

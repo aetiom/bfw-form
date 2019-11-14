@@ -254,11 +254,11 @@ class Data {
      */
     protected function validateData($data) 
     {
-        if (!isset($this->formOpts->validMethods[$this->type])) {
+        if (!isset($this->formOpts->dataClasses[$this->type])) {
             return true;
         }
         
-        $validateMethod = $this->formOpts->validMethods[$this->type];
+        $dataClass = $this->formOpts->dataClasses[$this->type];
         
         /*
         var_dump($validateMethod);
@@ -266,8 +266,7 @@ class Data {
         exit;
         */
 
-        if ($validateMethod($data, $this->validate) !== true) {
-
+        if ($dataClass::validate($data, $this->validate) !== true) {
             return false;
         }
         
