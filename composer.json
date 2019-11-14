@@ -21,5 +21,10 @@
     "require": {
         "bulton-fr/bfw": "~3.0.0-RC11@RC",
         "aetiom/php-utils": "dev-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aetiom\\BfwForm\\": "src/"
+        }
     }
 }
