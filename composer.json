@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aetiom\\BfwForm\\": "src/"
+            "BfwForm\\": "src/"
         }
     }
 }
