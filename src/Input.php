@@ -387,7 +387,7 @@ class Input {
             $this->setError(self::ERR_IMPROPER_VALUE);
             return false;
         }
-        
+
         return true;
     }
     

@@ -200,9 +200,6 @@ class Form {
     public function retrieve()
     {
         if ($this->validHttpRequest() !== true) {
-            echo 'token nok';
-            exit;
-
             return false;
         }
         
