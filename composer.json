@@ -20,7 +20,7 @@
     },
     "require": {
         "bulton-fr/bfw": "~3.0.0-RC11@RC",
-        "aetiom/php-utils": "dev-dev"
+        "aetiom/php-utils": "1.0.x-dev"
     },
     "autoload": {
         "psr-4": {
