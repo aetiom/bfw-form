@@ -157,7 +157,7 @@ class Input {
 
 
 
-    public function getLabel():\Aetiom\PhpUtils\Asset
+    public function getLabel()
     {
         if (empty($this->label)) {
             return null;
@@ -166,7 +166,7 @@ class Input {
         return $this->label;
     }
     
-    public function getHelp():\Aetiom\PhpUtils\Asset
+    public function getHelp()
     {
         if (empty($this->help)) {
             return null;
@@ -175,7 +175,7 @@ class Input {
         return $this->help;
     }
     
-    public function getPlaceholder():\Aetiom\PhpUtils\Asset
+    public function getPlaceholder()
     {
         if (empty($this->placeholder)) {
             return null;
@@ -185,7 +185,7 @@ class Input {
     }
 
 
-    public function getError():\Aetiom\PhpUtils\Asset
+    public function getError()
     {
         if (empty($this->error)) {
             return null;
